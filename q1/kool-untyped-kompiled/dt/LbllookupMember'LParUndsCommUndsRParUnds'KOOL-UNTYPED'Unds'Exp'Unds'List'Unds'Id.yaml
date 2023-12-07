@@ -1,0 +1,143 @@
+args:
+- - &id001 ['1']
+  - LIST.List
+next:
+  default: &id007
+    args:
+    - - *id001
+      - LIST.List
+    - - [lit, '0', MINT.MInt 64]
+      - MINT.MInt 64
+    next:
+      default: fail
+      specializations:
+      - - LblenvStackFrame'LParUndsCommUndsRParUnds'KOOL-UNTYPED'Unds'KItem'Unds'Id'Unds'Map{}
+        - args:
+          - - *id001
+            - LIST.List
+          - - [lit, '1', MINT.MInt 64]
+            - MINT.MInt 64
+          - - [lit, '0', MINT.MInt 64]
+            - MINT.MInt 64
+          next:
+            args:
+            - - &id002 ['1', '0', '1']
+              - MAP.Map
+            - - &id003 ['2']
+              - STRING.String
+            next:
+              default: null
+              specializations:
+              - - '1'
+                - action:
+                  - 6590
+                  - - - &id005 ['0', '0', '1']
+                      - STRING.String
+                    - - *id002
+                      - MAP.Map
+                    - - ['1', '1']
+                      - LIST.List
+                    - - *id003
+                      - STRING.String
+                - []
+              - - '0'
+                - next:
+                    args:
+                    - - *id002
+                      - MAP.Map
+                    - - &id004 [size, '1', '0', '1']
+                      - STRING.String
+                    next:
+                      args:
+                      - - *id002
+                        - MAP.Map
+                      - - *id004
+                        - STRING.String
+                      next:
+                        default: null
+                        specializations:
+                        - - '1'
+                          - default: fail
+                            specializations:
+                            - - inj{SortInt{}, SortKItem{}}
+                              - args:
+                                - - *id001
+                                  - LIST.List
+                                - - [lit, '1', MINT.MInt 64]
+                                  - MINT.MInt 64
+                                - - [lit, '0', MINT.MInt 64]
+                                  - MINT.MInt 64
+                                next:
+                                  action:
+                                  - 6591
+                                  - - - *id005
+                                      - STRING.String
+                                    - - ['SymbolP(inj{SortId{}, SortKItem{}},List(VariableP(Some(Num(2,Base())),StringS())))_rem',
+                                        '1', '0', '1']
+                                      - MAP.Map
+                                    - - ['1', '1']
+                                      - LIST.List
+                                    - - ['0', 'SymbolP(inj{SortId{}, SortKItem{}},List(VariableP(Some(Num(2,Base())),StringS())))_val',
+                                        '1', '0', '1']
+                                      - INT.Int
+                                    - - *id003
+                                      - STRING.String
+                                function: hook_LIST_range_long
+                                sort: LIST.List
+                                occurrence: ['1', '1']
+                              - [INT.Int]
+                            sort: STRING.String
+                            occurrence: ['SymbolP(inj{SortId{}, SortKItem{}},List(VariableP(Some(Num(2,Base())),StringS())))_val',
+                              '1', '0', '1']
+                          - [STRING.String, MAP.Map, MAP.Map]
+                        - - '0'
+                          - fail
+                          - [MAP.Map]
+                        isnull: true
+                        sort: STRING.String
+                        occurrence: ['SymbolP(inj{SortId{}, SortKItem{}},List(VariableP(Some(Num(2,Base())),StringS())))_val',
+                          '1', '0', '1']
+                      function: hook_MAP_remove
+                      sort: MAP.Map
+                      occurrence: ['SymbolP(inj{SortId{}, SortKItem{}},List(VariableP(Some(Num(2,Base())),StringS())))_rem',
+                        '1', '0', '1']
+                    function: hook_MAP_lookup_null
+                    sort: STRING.String
+                    occurrence: ['SymbolP(inj{SortId{}, SortKItem{}},List(VariableP(Some(Num(2,Base())),StringS())))_val',
+                      '1', '0', '1']
+                  pattern:
+                    args:
+                    - hook: STRING.String
+                      occurrence: *id003
+                    constructor: inj{SortId{}, SortKItem{}}
+                  occurrence: *id004
+                  sort: STRING.String
+                - []
+              bitwidth: 1
+              sort: BOOL.Bool
+              occurrence: &id006 [side_condition_6590]
+            function: side_condition_6590
+            sort: BOOL.Bool
+            occurrence: *id006
+          function: hook_LIST_range_long
+          sort: LIST.List
+          occurrence: ['1', '1']
+        - [STRING.String, MAP.Map]
+      sort: STRING.String
+      occurrence: ['0', '1']
+    function: hook_LIST_get_long
+    sort: STRING.String
+    occurrence: ['0', '1']
+  specializations:
+  - - '0'
+    - fail
+    - []
+  - - '1'
+    - *id007
+    - [STRING.String]
+  bitwidth: 64
+  sort: MINT.MInt 64
+  occurrence: &id008 [size, '1']
+function: hook_LIST_size_long
+sort: MINT.MInt 64
+occurrence: *id008

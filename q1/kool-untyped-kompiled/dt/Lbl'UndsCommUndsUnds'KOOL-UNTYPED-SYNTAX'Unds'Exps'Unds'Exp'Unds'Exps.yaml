@@ -1,0 +1,33 @@
+default: fail
+specializations:
+- - inj{SortVals{}, SortExps{}}
+  - default: fail
+    specializations:
+    - - inj{SortVal{}, SortExp{}}
+      - action:
+        - 6126
+        - - - ['0', '1']
+            - STRING.String
+          - - &id001 ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - inj{SortString{}, SortExp{}}
+      - &id002
+        action:
+        - 6126
+        - - - &id003 ['1']
+            - STRING.String
+          - - *id001
+            - STRING.String
+      - [STRING.String]
+    - - inj{SortBool{}, SortExp{}}
+      - *id002
+      - [BOOL.Bool]
+    - - inj{SortInt{}, SortExp{}}
+      - *id002
+      - [INT.Int]
+    sort: STRING.String
+    occurrence: *id003
+  - [STRING.String]
+sort: STRING.String
+occurrence: ['2']

@@ -1,0 +1,33 @@
+default: null
+specializations:
+- - Lbl'Stop'List'LBraQuotUndsCommUndsUnds'KOOL-UNTYPED-SYNTAX'Unds'Vals'Unds'Val'Unds'Vals'QuotRBraUnds'Vals{}
+  - default: fail
+    specializations:
+    - - Lbl'Stop'List'LBraQuotUndsCommUndsUnds'KOOL-UNTYPED-SYNTAX'Unds'Ids'Unds'Id'Unds'Ids'QuotRBraUnds'Ids{}
+      - action:
+        - 6594
+        - []
+      - []
+    sort: STRING.String
+    occurrence: &id001 ['1']
+  - []
+- - Lbl'UndsCommUndsUnds'KOOL-UNTYPED-SYNTAX'Unds'Vals'Unds'Val'Unds'Vals{}
+  - default: fail
+    specializations:
+    - - Lbl'UndsCommUndsUnds'KOOL-UNTYPED-SYNTAX'Unds'Ids'Unds'Id'Unds'Ids{}
+      - action:
+        - 6595
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+          - - ['0', '1']
+            - STRING.String
+          - - ['1', '1']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    sort: STRING.String
+    occurrence: *id001
+  - [STRING.String, STRING.String]
+sort: STRING.String
+occurrence: ['2']

@@ -1,0 +1,606 @@
+default: null
+specializations:
+- - Lbl'-LT-'generatedTop'-GT-'{}
+  - default: null
+    specializations:
+    - - Lbl'-LT-'T'-GT-'{}
+      - default: null
+        specializations:
+        - - Lbl'-LT-'threads'-GT-'{}
+          - next:
+              next:
+                default: null
+                specializations:
+                - - '0'
+                  - fail
+                  - [SET.Set]
+                - - '1'
+                  - args:
+                    - - &id031 ['0', '0', '0', '1']
+                      - SET.Set
+                    - - [key, '0', '0', '0', '1']
+                      - STRING.String
+                    next:
+                      default: null
+                      specializations:
+                      - - Lbl'-LT-'thread'-GT-'{}
+                        - default: null
+                          specializations:
+                          - - Lbl'-LT-'env'-GT-'{}
+                            - default: null
+                              specializations:
+                              - - Lbl'-LT-'k'-GT-'{}
+                                - default: null
+                                  specializations:
+                                  - - Lbl'-LT-'control'-GT-'{}
+                                    - default: null
+                                      specializations:
+                                      - - Lbl'-LT-'xstack'-GT-'{}
+                                        - default: fail
+                                          specializations:
+                                          - - kseq{}
+                                            - args:
+                                              - - &id001 ['0', '1', '1', key, '0',
+                                                  '0', '0', '1']
+                                                - LIST.List
+                                              next:
+                                                default: &id029
+                                                  args:
+                                                  - - *id001
+                                                    - LIST.List
+                                                  - - [lit, '0', MINT.MInt 64]
+                                                    - MINT.MInt 64
+                                                  next:
+                                                    default: fail
+                                                    specializations:
+                                                    - - LblxstackFrame'LParUndsCommUndsCommUndsCommUndsCommUndsRParUnds'KOOL-UNTYPED'Unds'KItem'Unds'Id'Unds'Stmt'Unds'K'Unds'Map'Unds'K{}
+                                                      - default: fail
+                                                        specializations:
+                                                        - - kseq{}
+                                                          - default: fail
+                                                            specializations:
+                                                            - - dotk{}
+                                                              - default: fail
+                                                                specializations:
+                                                                - - inj{SortControlCellFragment{},
+                                                                    SortKItem{}}
+                                                                  - default: null
+                                                                    specializations:
+                                                                    - - Lbl'-LT-'control'-GT-'-fragment{}
+                                                                      - default: fail
+                                                                        specializations:
+                                                                        - - LblnoXstackCell{}
+                                                                          - default: fail
+                                                                            specializations:
+                                                                            - - inj{SortCrntObjCell{},
+                                                                                SortCrntObjCellOpt{}}
+                                                                              - default: fail
+                                                                                specializations:
+                                                                                - - inj{SortFstackCell{},
+                                                                                    SortFstackCellOpt{}}
+                                                                                  - default: fail
+                                                                                    specializations:
+                                                                                    - - inj{SortStmt{},
+                                                                                        SortKItem{}}
+                                                                                      - default: fail
+                                                                                        specializations:
+                                                                                        - - Lblthrow'UndsSClnUnds'KOOL-UNTYPED-SYNTAX'Unds'Stmt'Unds'Exp{}
+                                                                                          - default: fail
+                                                                                            specializations:
+                                                                                            - - inj{SortVal{},
+                                                                                                SortExp{}}
+                                                                                              - args:
+                                                                                                - - &id002 [
+                                                                                                    '0',
+                                                                                                    '1',
+                                                                                                    '1',
+                                                                                                    key,
+                                                                                                    '0',
+                                                                                                    '0',
+                                                                                                    '0',
+                                                                                                    '1']
+                                                                                                  - LIST.List
+                                                                                                - - [
+                                                                                                    lit,
+                                                                                                    '1',
+                                                                                                    MINT.MInt
+                                                                                                      64]
+                                                                                                  - MINT.MInt
+                                                                                                    64
+                                                                                                - - [
+                                                                                                    lit,
+                                                                                                    '0',
+                                                                                                    MINT.MInt
+                                                                                                      64]
+                                                                                                  - MINT.MInt
+                                                                                                    64
+                                                                                                next:
+                                                                                                  action:
+                                                                                                  - 6322
+                                                                                                  - - - &id003 [
+                                                                                                        '1',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - &id004 [
+                                                                                                        rem,
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - SET.Set
+                                                                                                    - - &id005 [
+                                                                                                        '1',
+                                                                                                        '0',
+                                                                                                        '1',
+                                                                                                        '1',
+                                                                                                        key,
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - LIST.List
+                                                                                                    - - &id006 [
+                                                                                                        '1',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        key,
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - &id007 [
+                                                                                                        '2',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - &id008 [
+                                                                                                        '3',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - &id009 [
+                                                                                                        '4',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - &id010 [
+                                                                                                        '5',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - &id011 [
+                                                                                                        '6',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - &id012 [
+                                                                                                        '7',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - &id013 [
+                                                                                                        '8',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - &id014 [
+                                                                                                        '0',
+                                                                                                        '2',
+                                                                                                        key,
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - MAP.Map
+                                                                                                    - - &id015 [
+                                                                                                        '0',
+                                                                                                        '1',
+                                                                                                        key,
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - &id016 [
+                                                                                                        '2',
+                                                                                                        '1',
+                                                                                                        key,
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - &id017 [
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '4',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1',
+                                                                                                        '1',
+                                                                                                        key,
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - &id018 [
+                                                                                                        '0',
+                                                                                                        '2',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '4',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1',
+                                                                                                        '1',
+                                                                                                        key,
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - &id019 [
+                                                                                                        '3',
+                                                                                                        key,
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - &id020 [
+                                                                                                        '4',
+                                                                                                        key,
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - &id021 [
+                                                                                                        '1',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - &id022 [
+                                                                                                        '3',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1',
+                                                                                                        '1',
+                                                                                                        key,
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - MAP.Map
+                                                                                                    - - &id023 [
+                                                                                                        '2',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1',
+                                                                                                        '1',
+                                                                                                        key,
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - &id024 [
+                                                                                                        '1',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1',
+                                                                                                        '1',
+                                                                                                        key,
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - [
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        key,
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - &id025 [
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1',
+                                                                                                        '1',
+                                                                                                        key,
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                function: hook_LIST_range_long
+                                                                                                sort: LIST.List
+                                                                                                occurrence: &id026 [
+                                                                                                  '1',
+                                                                                                  '0',
+                                                                                                  '1',
+                                                                                                  '1',
+                                                                                                  key,
+                                                                                                  '0',
+                                                                                                  '0',
+                                                                                                  '0',
+                                                                                                  '1']
+                                                                                              - [
+                                                                                                STRING.String]
+                                                                                            - - inj{SortString{},
+                                                                                                SortExp{}}
+                                                                                              - &id027
+                                                                                                args:
+                                                                                                - - *id002
+                                                                                                  - LIST.List
+                                                                                                - - [
+                                                                                                    lit,
+                                                                                                    '1',
+                                                                                                    MINT.MInt
+                                                                                                      64]
+                                                                                                  - MINT.MInt
+                                                                                                    64
+                                                                                                - - [
+                                                                                                    lit,
+                                                                                                    '0',
+                                                                                                    MINT.MInt
+                                                                                                      64]
+                                                                                                  - MINT.MInt
+                                                                                                    64
+                                                                                                next:
+                                                                                                  action:
+                                                                                                  - 6322
+                                                                                                  - - - *id003
+                                                                                                      - STRING.String
+                                                                                                    - - *id004
+                                                                                                      - SET.Set
+                                                                                                    - - *id005
+                                                                                                      - LIST.List
+                                                                                                    - - *id006
+                                                                                                      - STRING.String
+                                                                                                    - - *id007
+                                                                                                      - STRING.String
+                                                                                                    - - *id008
+                                                                                                      - STRING.String
+                                                                                                    - - *id009
+                                                                                                      - STRING.String
+                                                                                                    - - *id010
+                                                                                                      - STRING.String
+                                                                                                    - - *id011
+                                                                                                      - STRING.String
+                                                                                                    - - *id012
+                                                                                                      - STRING.String
+                                                                                                    - - *id013
+                                                                                                      - STRING.String
+                                                                                                    - - *id014
+                                                                                                      - MAP.Map
+                                                                                                    - - *id015
+                                                                                                      - STRING.String
+                                                                                                    - - *id016
+                                                                                                      - STRING.String
+                                                                                                    - - *id017
+                                                                                                      - STRING.String
+                                                                                                    - - *id018
+                                                                                                      - STRING.String
+                                                                                                    - - *id019
+                                                                                                      - STRING.String
+                                                                                                    - - *id020
+                                                                                                      - STRING.String
+                                                                                                    - - *id021
+                                                                                                      - STRING.String
+                                                                                                    - - *id022
+                                                                                                      - MAP.Map
+                                                                                                    - - *id023
+                                                                                                      - STRING.String
+                                                                                                    - - *id024
+                                                                                                      - STRING.String
+                                                                                                    - - &id028 [
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        key,
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - *id025
+                                                                                                      - STRING.String
+                                                                                                function: hook_LIST_range_long
+                                                                                                sort: LIST.List
+                                                                                                occurrence: *id026
+                                                                                              - [
+                                                                                                STRING.String]
+                                                                                            - - inj{SortBool{},
+                                                                                                SortExp{}}
+                                                                                              - *id027
+                                                                                              - [
+                                                                                                BOOL.Bool]
+                                                                                            - - inj{SortInt{},
+                                                                                                SortExp{}}
+                                                                                              - *id027
+                                                                                              - [
+                                                                                                INT.Int]
+                                                                                            sort: STRING.String
+                                                                                            occurrence: *id028
+                                                                                          - [
+                                                                                            STRING.String]
+                                                                                        sort: STRING.String
+                                                                                        occurrence: [
+                                                                                          '0',
+                                                                                          '0',
+                                                                                          '0',
+                                                                                          '0',
+                                                                                          key,
+                                                                                          '0',
+                                                                                          '0',
+                                                                                          '0',
+                                                                                          '1']
+                                                                                      - [
+                                                                                        STRING.String]
+                                                                                    - - inj{SortBlock{},
+                                                                                        SortKItem{}}
+                                                                                      - fail
+                                                                                      - [
+                                                                                        STRING.String]
+                                                                                    sort: STRING.String
+                                                                                    occurrence: [
+                                                                                      '0',
+                                                                                      '0',
+                                                                                      '0',
+                                                                                      key,
+                                                                                      '0',
+                                                                                      '0',
+                                                                                      '0',
+                                                                                      '1']
+                                                                                  - [
+                                                                                    STRING.String]
+                                                                                sort: STRING.String
+                                                                                occurrence: [
+                                                                                  '0',
+                                                                                  '0',
+                                                                                  '0',
+                                                                                  '4',
+                                                                                  '0',
+                                                                                  '0',
+                                                                                  '1',
+                                                                                  '1',
+                                                                                  key,
+                                                                                  '0',
+                                                                                  '0',
+                                                                                  '0',
+                                                                                  '1']
+                                                                              - [
+                                                                                STRING.String]
+                                                                            sort: STRING.String
+                                                                            occurrence: [
+                                                                              '2',
+                                                                              '0',
+                                                                              '0',
+                                                                              '4',
+                                                                              '0',
+                                                                              '0',
+                                                                              '1',
+                                                                              '1',
+                                                                              key,
+                                                                              '0',
+                                                                              '0',
+                                                                              '0',
+                                                                              '1']
+                                                                          - []
+                                                                        sort: STRING.String
+                                                                        occurrence: [
+                                                                          '1', '0',
+                                                                          '0', '4',
+                                                                          '0', '0',
+                                                                          '1', '1',
+                                                                          key, '0',
+                                                                          '0', '0',
+                                                                          '1']
+                                                                      - [STRING.String,
+                                                                        STRING.String,
+                                                                        STRING.String]
+                                                                    sort: STRING.String
+                                                                    occurrence: [
+                                                                      '0', '0', '4',
+                                                                      '0', '0', '1',
+                                                                      '1', key, '0',
+                                                                      '0', '0', '1']
+                                                                  - [STRING.String]
+                                                                sort: STRING.String
+                                                                occurrence: ['0',
+                                                                  '4', '0', '0', '1',
+                                                                  '1', key, '0', '0',
+                                                                  '0', '1']
+                                                              - []
+                                                            sort: STRING.String
+                                                            occurrence: ['1', '4',
+                                                              '0', '0', '1', '1',
+                                                              key, '0', '0', '0',
+                                                              '1']
+                                                          - [STRING.String, STRING.String]
+                                                        sort: STRING.String
+                                                        occurrence: ['4', '0', '0',
+                                                          '1', '1', key, '0', '0',
+                                                          '0', '1']
+                                                      - [STRING.String, STRING.String,
+                                                        STRING.String, MAP.Map, STRING.String]
+                                                    sort: STRING.String
+                                                    occurrence: ['0', '0', '1', '1',
+                                                      key, '0', '0', '0', '1']
+                                                  function: hook_LIST_get_long
+                                                  sort: STRING.String
+                                                  occurrence: ['0', '0', '1', '1',
+                                                    key, '0', '0', '0', '1']
+                                                specializations:
+                                                - - '0'
+                                                  - fail
+                                                  - []
+                                                - - '1'
+                                                  - *id029
+                                                  - [STRING.String]
+                                                bitwidth: 64
+                                                sort: MINT.MInt 64
+                                                occurrence: &id030 [size, '0', '1',
+                                                  '1', key, '0', '0', '0', '1']
+                                              function: hook_LIST_size_long
+                                              sort: MINT.MInt 64
+                                              occurrence: *id030
+                                            - [STRING.String, STRING.String]
+                                          sort: STRING.String
+                                          occurrence: ['0', '0', key, '0', '0', '0',
+                                            '1']
+                                        - [LIST.List]
+                                      sort: STRING.String
+                                      occurrence: ['1', '1', key, '0', '0', '0', '1']
+                                    - [STRING.String, STRING.String, STRING.String]
+                                  sort: STRING.String
+                                  occurrence: ['1', key, '0', '0', '0', '1']
+                                - [STRING.String]
+                              sort: STRING.String
+                              occurrence: ['0', key, '0', '0', '0', '1']
+                            - [MAP.Map]
+                          sort: STRING.String
+                          occurrence: ['2', key, '0', '0', '0', '1']
+                        - [STRING.String, STRING.String, STRING.String, STRING.String,
+                          STRING.String]
+                      sort: STRING.String
+                      occurrence: [key, '0', '0', '0', '1']
+                    function: hook_SET_remove
+                    sort: SET.Set
+                    occurrence: [rem, '0', '0', '0', '1']
+                  - [STRING.String, SET.Set]
+                isnull: true
+                sort: STRING.String
+                occurrence: [key, '0', '0', '0', '1']
+              iterator: *id031
+              function: set_iterator_next
+              binding: [key, '0', '0', '0', '1']
+              sort: STRING.String
+            function: set_iterator
+            collection: *id031
+            sort: SET.Set
+          - [SET.Set]
+        sort: STRING.String
+        occurrence: ['0', '0', '1']
+      - [STRING.String, STRING.String, STRING.String, STRING.String, STRING.String,
+        STRING.String, STRING.String, STRING.String, STRING.String]
+    sort: STRING.String
+    occurrence: ['0', '1']
+  - [STRING.String, STRING.String]
+sort: STRING.String
+occurrence: ['1']

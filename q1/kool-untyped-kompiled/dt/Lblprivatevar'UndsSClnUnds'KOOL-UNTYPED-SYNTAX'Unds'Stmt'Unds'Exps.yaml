@@ -1,0 +1,49 @@
+default: fail
+specializations:
+- - Lbl'UndsCommUndsUnds'KOOL-UNTYPED-SYNTAX'Unds'Exps'Unds'Exp'Unds'Exps{}
+  - default: fail
+    specializations:
+    - - Lbl'UndsEqlsUndsUnds'KOOL-UNTYPED-SYNTAX'Unds'Exp'Unds'Exp'Unds'Exp{}
+      - default: fail
+        specializations:
+        - - inj{SortId{}, SortExp{}}
+          - default: fail
+            specializations:
+            - - Lbl'Stop'List'LBraQuotUndsCommUndsUnds'KOOL-UNTYPED-SYNTAX'Unds'Exps'Unds'Exp'Unds'Exps'QuotRBraUnds'Exps{}
+              - &id001
+                action:
+                - 6598
+                - - - &id004 ['0', '1']
+                    - STRING.String
+                  - - &id003 ['0', '0', '1']
+                    - STRING.String
+                  - - &id002 ['1', '1']
+                    - STRING.String
+                  - - ['1', '0', '1']
+                    - STRING.String
+                  - - ['0', '0', '0', '1']
+                    - STRING.String
+              - []
+            - - inj{SortVals{}, SortExps{}}
+              - default: fail
+                specializations:
+                - - Lbl'Stop'List'LBraQuotUndsCommUndsUnds'KOOL-UNTYPED-SYNTAX'Unds'Vals'Unds'Val'Unds'Vals'QuotRBraUnds'Vals{}
+                  - *id001
+                  - []
+                sort: STRING.String
+                occurrence: ['0', '1', '1']
+              - [STRING.String]
+            sort: STRING.String
+            occurrence: *id002
+          - [STRING.String]
+        sort: STRING.String
+        occurrence: *id003
+      - [STRING.String, STRING.String]
+    sort: STRING.String
+    occurrence: *id004
+  - [STRING.String, STRING.String]
+- - inj{SortVals{}, SortExps{}}
+  - fail
+  - [STRING.String]
+sort: STRING.String
+occurrence: ['1']
